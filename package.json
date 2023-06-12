@@ -1,0 +1,19 @@
+{
+  "name": "06_12_pacman",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "index": "nodemon ./index.js", 
+    "dev": "dead-server --host=localhost --port=4500",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Karolis",
+  "license": "MIT",
+  "devDependencies": {
+    "dead-server": "^1.0.9",
+    "nodemon": "^2.0.22"
+  }
+}
